@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(248, 248, 245);
+    color: #110c0c;
+    font-family: digital_clock;
+    margin: 0;
+}
+
+.Clock span {
+    margin: 0;
+}
+
+
+
+.clock {
+    width: 400px;
+    height: 150px;
+    font-size: 100px;
+    text-align: center;
+    border-style: groove;
+    border-radius: 6px;
+    background: rgba(136, 219, 136, 0.658);
+    box-shadow: 0px 0px 22px 0px;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#ampm {
+    vertical-align: 45px;
+    font-size: 30px !important;
+    margin-left: 10px;
+    color: red;
+}
+
+@font-face {
+    font-family: digital_clock;
+    src: url("/My_front-end_projects/dg_clock/Assets/fonts/digital-7.ttf");
+}
